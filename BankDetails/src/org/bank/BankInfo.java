@@ -13,6 +13,7 @@ public class BankInfo extends AxisBank {
 		BankInfo bi = new BankInfo();
 		bi.saving();
 		bi.fixed();
+		System.out.println("This is my fixed account....");
 		bi.deposit();
 	}
 
